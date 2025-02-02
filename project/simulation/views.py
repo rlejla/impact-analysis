@@ -9,7 +9,6 @@ from .services import analyze_impact_advanced
 from .utils import load_json_data, generate_pie_chart, generate_bar_chart
 
 
-
 BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'simulation', 'data')
 GUIDELINES_PATH = os.path.join(BASE_DIR, 'guidelines.json')
 SUBMISSIONS_PATH = os.path.join(BASE_DIR, 'submissions.json')
@@ -30,26 +29,23 @@ except Exception as e:
 
 class GuidelinesListView(APIView):
     """
-    Returns paginated list of all guidelines.
+    Returns a list of all guidelines.
     """
     def get(self, request):
-        paginator = PageNumberPagination()
-        result_page = paginator.paginate_queryset(GUIDELINES_DATA, request)
-        return paginator.get_paginated_response(result_page)
+        return Response(GUIDELINES_DATA, status=status.HTTP_200_OK)
 
 class SubmissionsListView(APIView):
     """
-    Returns paginated list of all submissions.
+    Returns a list of all submissions.
     """
     def get(self, request):
-        paginator = PageNumberPagination()
-        result_page = paginator.paginate_queryset(SUBMISSIONS_DATA, request)
-        return paginator.get_paginated_response(result_page)
+        return Response(SUBMISSIONS_DATA, status=status.HTTP_200_OK)
     
 class SimulationView(APIView):
     """
-    POST /api/simulate/
-    Accepts a baseline guideline ID and a full modified guideline configuration.
+    Accepts a guideline payload.
+    If the guideline does not have an ID, it is added to the list of guidelines.
+    If the guideline has an ID, it is compared to the existing guideline with the same ID.
     Returns an impact report.
     """
     def post(self, request):
@@ -79,8 +75,6 @@ class SimulationView(APIView):
         
 class GraphReportView(APIView):
     """
-    POST /api/report/graphs/
-
     Accepts an impact report JSON payload and returns a JSON response containing:
       - Base64-encoded images for charts.
       - Narrative text summaries tying together the data.
