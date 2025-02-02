@@ -1,0 +1,2177 @@
+[
+  {
+    "id": "eb10bb5d-3e38-4c90-95af-485a6a6bca05",
+    "name": "Payne, Diaz and Patterson Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 6000000
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 7,
+    "effective_date": "2022-07-17",
+    "version": 1,
+    "coverage_types": [
+      "cyber"
+    ]
+  },
+  {
+    "id": "eb10bb5d-3e38-4c90-95af-485a6a6bca05",
+    "name": "Payne, Diaz and Patterson Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 6000000
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 7,
+    "effective_date": "2024-07-01",
+    "version": 2,
+    "coverage_types": [
+      "cyber"
+    ]
+  },
+  {
+    "id": "eb10bb5d-3e38-4c90-95af-485a6a6bca05",
+    "name": "Payne, Diaz and Patterson Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 6000000
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 7,
+    "effective_date": "2023-11-13",
+    "version": 2,
+    "coverage_types": [
+      "professional",
+      "property",
+      "cyber"
+    ]
+  },
+  {
+    "id": "5ebee5e4-f913-4933-9b00-dcd1457f6617",
+    "name": "Bell, Nguyen and Singh Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "workplace_safety"
+            ],
+            "threshold": 2
+          }
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 10,
+    "effective_date": "2020-01-30",
+    "version": 1,
+    "coverage_types": [
+      "cyber",
+      "property",
+      "professional"
+    ]
+  },
+  {
+    "id": "5ebee5e4-f913-4933-9b00-dcd1457f6617",
+    "name": "Bell, Nguyen and Singh Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "workplace_safety"
+            ],
+            "threshold": 2
+          }
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 10,
+    "effective_date": "2024-08-01",
+    "version": 2,
+    "coverage_types": [
+      "cyber",
+      "property",
+      "professional"
+    ]
+  },
+  {
+    "id": "5ebee5e4-f913-4933-9b00-dcd1457f6617",
+    "name": "Bell, Nguyen and Singh Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "workplace_safety"
+            ],
+            "threshold": 2
+          }
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 10,
+    "effective_date": "2020-06-04",
+    "version": 2,
+    "coverage_types": [
+      "cyber",
+      "property",
+      "professional"
+    ]
+  },
+  {
+    "id": "6de479e8-46f4-4a10-ac91-461b3db7f15d",
+    "name": "Shaw LLC Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "manufacturing"
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 8,
+    "effective_date": "2024-12-21",
+    "version": 1,
+    "coverage_types": [
+      "cyber"
+    ]
+  },
+  {
+    "id": "6de479e8-46f4-4a10-ac91-461b3db7f15d",
+    "name": "Shaw LLC Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "manufacturing"
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 8,
+    "effective_date": "2025-01-20",
+    "version": 2,
+    "coverage_types": [
+      "cyber"
+    ]
+  },
+  {
+    "id": "6de479e8-46f4-4a10-ac91-461b3db7f15d",
+    "name": "Shaw LLC Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "manufacturing"
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 8,
+    "effective_date": "2025-01-24",
+    "version": 2,
+    "coverage_types": [
+      "cyber"
+    ]
+  },
+  {
+    "id": "5b46fff5-f57d-41c6-9691-3ebd15485f8b",
+    "name": "Jones LLC Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": [
+            18000000,
+            35000000
+          ]
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "manufacturing"
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "environmental",
+              "reputation_risk"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "company_data.years_in_business",
+          "operator": ">=",
+          "value": 2
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 9,
+    "effective_date": "2020-11-23",
+    "version": 1,
+    "coverage_types": [
+      "cyber"
+    ]
+  },
+  {
+    "id": "5b46fff5-f57d-41c6-9691-3ebd15485f8b",
+    "name": "Jones LLC Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": [
+            18000000,
+            35000000
+          ]
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "manufacturing"
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "environmental",
+              "reputation_risk"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "company_data.years_in_business",
+          "operator": ">=",
+          "value": 2
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 9,
+    "effective_date": "2024-12-01",
+    "version": 2,
+    "coverage_types": [
+      "cyber"
+    ]
+  },
+  {
+    "id": "5b46fff5-f57d-41c6-9691-3ebd15485f8b",
+    "name": "Jones LLC Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": [
+            18000000,
+            35000000
+          ]
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "manufacturing"
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "environmental",
+              "reputation_risk"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "company_data.years_in_business",
+          "operator": ">=",
+          "value": 2
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 9,
+    "effective_date": "2022-02-26",
+    "version": 2,
+    "coverage_types": [
+      "liability",
+      "cyber",
+      "property"
+    ]
+  },
+  {
+    "id": "5c40bd57-4979-45b4-8128-ebf6bfb68a16",
+    "name": "Patel-Hoffman Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": "retail"
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 7,
+    "effective_date": "2020-01-30",
+    "version": 1,
+    "coverage_types": [
+      "property",
+      "professional",
+      "liability"
+    ]
+  },
+  {
+    "id": "5c40bd57-4979-45b4-8128-ebf6bfb68a16",
+    "name": "Patel-Hoffman Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": "retail"
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 7,
+    "effective_date": "2021-07-21",
+    "version": 2,
+    "coverage_types": [
+      "professional",
+      "cyber",
+      "liability",
+      "property"
+    ]
+  },
+  {
+    "id": "5c40bd57-4979-45b4-8128-ebf6bfb68a16",
+    "name": "Patel-Hoffman Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": "retail"
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 7,
+    "effective_date": "2022-05-28",
+    "version": 2,
+    "coverage_types": [
+      "property",
+      "professional",
+      "liability"
+    ]
+  },
+  {
+    "id": "baecc81a-cf04-4466-914f-9284f85f380b",
+    "name": "Cortez-Mccarty Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "supply_chain"
+            ],
+            "threshold": 3
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": "retail"
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 1,
+    "effective_date": "2023-12-15",
+    "version": 1,
+    "coverage_types": [
+      "professional"
+    ]
+  },
+  {
+    "id": "baecc81a-cf04-4466-914f-9284f85f380b",
+    "name": "Cortez-Mccarty Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "supply_chain"
+            ],
+            "threshold": 3
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": "retail"
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 1,
+    "effective_date": "2025-01-21",
+    "version": 2,
+    "coverage_types": [
+      "professional"
+    ]
+  },
+  {
+    "id": "baecc81a-cf04-4466-914f-9284f85f380b",
+    "name": "Cortez-Mccarty Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "supply_chain"
+            ],
+            "threshold": 3
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": "retail"
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 1,
+    "effective_date": "2024-11-21",
+    "version": 2,
+    "coverage_types": [
+      "property"
+    ]
+  },
+  {
+    "id": "481decc2-2d61-47ec-a7dd-d2de2858a401",
+    "name": "Padilla, Perez and Massey Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 28000000
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 2,
+    "effective_date": "2020-05-30",
+    "version": 1,
+    "coverage_types": [
+      "property",
+      "cyber",
+      "liability"
+    ]
+  },
+  {
+    "id": "481decc2-2d61-47ec-a7dd-d2de2858a401",
+    "name": "Padilla, Perez and Massey Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 28000000
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 2,
+    "effective_date": "2024-05-25",
+    "version": 2,
+    "coverage_types": [
+      "property",
+      "cyber",
+      "liability"
+    ]
+  },
+  {
+    "id": "481decc2-2d61-47ec-a7dd-d2de2858a401",
+    "name": "Padilla, Perez and Massey Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 28000000
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 2,
+    "effective_date": "2024-10-15",
+    "version": 2,
+    "coverage_types": [
+      "property",
+      "cyber",
+      "liability"
+    ]
+  },
+  {
+    "id": "97061b74-7b22-45ac-a7ae-cb586b957e42",
+    "name": "Cox and Sons Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "natural_disasters",
+              "economic_downturn"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": [
+            22000000,
+            50000000
+          ]
+        }
+      ]
+    },
+    "action": "ADDITIONAL_DOCUMENTS",
+    "priority": 2,
+    "effective_date": "2021-03-13",
+    "version": 1,
+    "coverage_types": [
+      "property"
+    ]
+  },
+  {
+    "id": "97061b74-7b22-45ac-a7ae-cb586b957e42",
+    "name": "Cox and Sons Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "natural_disasters",
+              "economic_downturn"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": [
+            22000000,
+            50000000
+          ]
+        }
+      ]
+    },
+    "action": "ADDITIONAL_DOCUMENTS",
+    "priority": 2,
+    "effective_date": "2024-06-09",
+    "version": 2,
+    "coverage_types": [
+      "property"
+    ]
+  },
+  {
+    "id": "97061b74-7b22-45ac-a7ae-cb586b957e42",
+    "name": "Cox and Sons Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "natural_disasters",
+              "economic_downturn"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": [
+            22000000,
+            50000000
+          ]
+        }
+      ]
+    },
+    "action": "ADDITIONAL_DOCUMENTS",
+    "priority": 2,
+    "effective_date": "2023-12-15",
+    "version": 2,
+    "coverage_types": [
+      "property"
+    ]
+  },
+  {
+    "id": "e88d1ae9-1b70-4b05-9b1e-eea8499c284c",
+    "name": "Mcconnell, Hall and Payne Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats",
+              "regulatory_changes"
+            ],
+            "threshold": 2
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 7000000
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 5,
+    "effective_date": "2023-01-18",
+    "version": 1,
+    "coverage_types": [
+      "professional",
+      "cyber",
+      "liability"
+    ]
+  },
+  {
+    "id": "e88d1ae9-1b70-4b05-9b1e-eea8499c284c",
+    "name": "Mcconnell, Hall and Payne Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats",
+              "regulatory_changes"
+            ],
+            "threshold": 2
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 7000000
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 5,
+    "effective_date": "2024-11-11",
+    "version": 2,
+    "coverage_types": [
+      "professional",
+      "cyber",
+      "liability"
+    ]
+  },
+  {
+    "id": "e88d1ae9-1b70-4b05-9b1e-eea8499c284c",
+    "name": "Mcconnell, Hall and Payne Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats",
+              "regulatory_changes"
+            ],
+            "threshold": 2
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 7000000
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 5,
+    "effective_date": "2024-03-13",
+    "version": 2,
+    "coverage_types": [
+      "professional",
+      "cyber",
+      "liability"
+    ]
+  },
+  {
+    "id": "a22cad4a-299e-4ffe-89e8-bb989685d30f",
+    "name": "Garcia Ltd Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "regulatory_changes"
+            ],
+            "threshold": 3
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "retail"
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 2,
+    "effective_date": "2021-11-13",
+    "version": 1,
+    "coverage_types": [
+      "liability",
+      "professional"
+    ]
+  },
+  {
+    "id": "a22cad4a-299e-4ffe-89e8-bb989685d30f",
+    "name": "Garcia Ltd Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "regulatory_changes"
+            ],
+            "threshold": 3
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "retail"
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 2,
+    "effective_date": "2024-06-19",
+    "version": 2,
+    "coverage_types": [
+      "liability",
+      "professional"
+    ]
+  },
+  {
+    "id": "a22cad4a-299e-4ffe-89e8-bb989685d30f",
+    "name": "Garcia Ltd Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "regulatory_changes"
+            ],
+            "threshold": 3
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "retail"
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 2,
+    "effective_date": "2022-08-10",
+    "version": 2,
+    "coverage_types": [
+      "liability",
+      "professional"
+    ]
+  },
+  {
+    "id": "c389c6ed-c174-4f69-bd4d-53daf234ab85",
+    "name": "Johnson Ltd Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic",
+              "economic_downturn"
+            ],
+            "threshold": 3
+          }
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 8,
+    "effective_date": "2023-08-17",
+    "version": 1,
+    "coverage_types": [
+      "cyber",
+      "property",
+      "liability"
+    ]
+  },
+  {
+    "id": "c389c6ed-c174-4f69-bd4d-53daf234ab85",
+    "name": "Johnson Ltd Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic",
+              "economic_downturn"
+            ],
+            "threshold": 3
+          }
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 8,
+    "effective_date": "2025-01-23",
+    "version": 2,
+    "coverage_types": [
+      "cyber",
+      "property",
+      "liability"
+    ]
+  },
+  {
+    "id": "c389c6ed-c174-4f69-bd4d-53daf234ab85",
+    "name": "Johnson Ltd Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic",
+              "economic_downturn"
+            ],
+            "threshold": 3
+          }
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 8,
+    "effective_date": "2024-06-03",
+    "version": 2,
+    "coverage_types": [
+      "cyber",
+      "property",
+      "liability"
+    ]
+  },
+  {
+    "id": "45dec2de-bd39-47f5-b4e2-9badd1e39b9e",
+    "name": "Ford Group Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": 50000000
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "pharmaceuticals"
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "regulatory_changes"
+            ],
+            "threshold": 2
+          }
+        }
+      ]
+    },
+    "action": "ADDITIONAL_DOCUMENTS",
+    "priority": 3,
+    "effective_date": "2020-04-14",
+    "version": 1,
+    "coverage_types": [
+      "cyber",
+      "property"
+    ]
+  },
+  {
+    "id": "45dec2de-bd39-47f5-b4e2-9badd1e39b9e",
+    "name": "Ford Group Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": 50000000
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "pharmaceuticals"
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "regulatory_changes"
+            ],
+            "threshold": 2
+          }
+        }
+      ]
+    },
+    "action": "ADDITIONAL_DOCUMENTS",
+    "priority": 3,
+    "effective_date": "2022-06-01",
+    "version": 2,
+    "coverage_types": [
+      "cyber",
+      "property"
+    ]
+  },
+  {
+    "id": "45dec2de-bd39-47f5-b4e2-9badd1e39b9e",
+    "name": "Ford Group Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": 50000000
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "pharmaceuticals"
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "regulatory_changes"
+            ],
+            "threshold": 2
+          }
+        }
+      ]
+    },
+    "action": "ADDITIONAL_DOCUMENTS",
+    "priority": 3,
+    "effective_date": "2020-05-24",
+    "version": 2,
+    "coverage_types": [
+      "cyber",
+      "property"
+    ]
+  },
+  {
+    "id": "d4d704fc-df5c-4981-b469-641cf1bbd9ab",
+    "name": "Patterson, Powers and Cole Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "environmental"
+            ],
+            "threshold": 2
+          }
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 1,
+    "effective_date": "2024-05-15",
+    "version": 1,
+    "coverage_types": [
+      "property",
+      "professional",
+      "cyber"
+    ]
+  },
+  {
+    "id": "d4d704fc-df5c-4981-b469-641cf1bbd9ab",
+    "name": "Patterson, Powers and Cole Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "environmental"
+            ],
+            "threshold": 2
+          }
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 1,
+    "effective_date": "2024-10-15",
+    "version": 2,
+    "coverage_types": [
+      "property",
+      "professional",
+      "cyber"
+    ]
+  },
+  {
+    "id": "d4d704fc-df5c-4981-b469-641cf1bbd9ab",
+    "name": "Patterson, Powers and Cole Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "environmental"
+            ],
+            "threshold": 2
+          }
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 1,
+    "effective_date": "2024-09-13",
+    "version": 2,
+    "coverage_types": [
+      "property",
+      "professional",
+      "cyber"
+    ]
+  },
+  {
+    "id": "ff3533cb-92a7-42d1-9034-86f3d7272679",
+    "name": "Garcia-Patrick Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic",
+              "regulatory_changes",
+              "workplace_safety"
+            ],
+            "threshold": 1
+          }
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 4,
+    "effective_date": "2024-05-16",
+    "version": 1,
+    "coverage_types": [
+      "liability"
+    ]
+  },
+  {
+    "id": "ff3533cb-92a7-42d1-9034-86f3d7272679",
+    "name": "Garcia-Patrick Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic",
+              "regulatory_changes",
+              "workplace_safety"
+            ],
+            "threshold": 1
+          }
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 4,
+    "effective_date": "2024-07-18",
+    "version": 2,
+    "coverage_types": [
+      "liability"
+    ]
+  },
+  {
+    "id": "ff3533cb-92a7-42d1-9034-86f3d7272679",
+    "name": "Garcia-Patrick Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic",
+              "regulatory_changes",
+              "workplace_safety"
+            ],
+            "threshold": 1
+          }
+        }
+      ]
+    },
+    "action": "APPROVE",
+    "priority": 4,
+    "effective_date": "2024-12-22",
+    "version": 2,
+    "coverage_types": [
+      "liability"
+    ]
+  },
+  {
+    "id": "3ef1c26a-4da3-4698-9a9b-6630dce9ff98",
+    "name": "Murphy, Lynch and Schroeder Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats",
+              "reputation_risk"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": ">",
+          "value": [
+            12000000,
+            44000000
+          ]
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 2,
+    "effective_date": "2023-09-02",
+    "version": 1,
+    "coverage_types": [
+      "professional",
+      "cyber",
+      "property"
+    ]
+  },
+  {
+    "id": "3ef1c26a-4da3-4698-9a9b-6630dce9ff98",
+    "name": "Murphy, Lynch and Schroeder Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats",
+              "reputation_risk"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": ">",
+          "value": [
+            12000000,
+            44000000
+          ]
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 2,
+    "effective_date": "2024-03-25",
+    "version": 2,
+    "coverage_types": [
+      "professional",
+      "cyber",
+      "property"
+    ]
+  },
+  {
+    "id": "3ef1c26a-4da3-4698-9a9b-6630dce9ff98",
+    "name": "Murphy, Lynch and Schroeder Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats",
+              "reputation_risk"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": ">",
+          "value": [
+            12000000,
+            44000000
+          ]
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 2,
+    "effective_date": "2024-05-20",
+    "version": 2,
+    "coverage_types": [
+      "professional",
+      "cyber",
+      "property"
+    ]
+  },
+  {
+    "id": "742c3832-03dd-492d-ab84-52b645e16c99",
+    "name": "Wilkinson Inc Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "construction"
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "between",
+          "value": 16000000
+        }
+      ]
+    },
+    "action": "ADDITIONAL_DOCUMENTS",
+    "priority": 10,
+    "effective_date": "2023-11-23",
+    "version": 1,
+    "coverage_types": [
+      "liability",
+      "property"
+    ]
+  },
+  {
+    "id": "742c3832-03dd-492d-ab84-52b645e16c99",
+    "name": "Wilkinson Inc Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "construction"
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "between",
+          "value": 16000000
+        }
+      ]
+    },
+    "action": "ADDITIONAL_DOCUMENTS",
+    "priority": 10,
+    "effective_date": "2024-07-26",
+    "version": 2,
+    "coverage_types": [
+      "liability",
+      "property"
+    ]
+  },
+  {
+    "id": "742c3832-03dd-492d-ab84-52b645e16c99",
+    "name": "Wilkinson Inc Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic"
+            ],
+            "threshold": 1
+          }
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "construction"
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "between",
+          "value": 16000000
+        }
+      ]
+    },
+    "action": "ADDITIONAL_DOCUMENTS",
+    "priority": 10,
+    "effective_date": "2024-03-09",
+    "version": 2,
+    "coverage_types": [
+      "liability",
+      "property"
+    ]
+  },
+  {
+    "id": "77638bcc-8a5b-4150-ae7e-f571c17c0a5c",
+    "name": "Young LLC Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic",
+              "reputation_risk",
+              "regulatory_changes"
+            ],
+            "threshold": 5
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "between",
+          "value": [
+            11000000,
+            32000000
+          ]
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 2,
+    "effective_date": "2021-07-07",
+    "version": 1,
+    "coverage_types": [
+      "cyber",
+      "property",
+      "professional"
+    ]
+  },
+  {
+    "id": "77638bcc-8a5b-4150-ae7e-f571c17c0a5c",
+    "name": "Young LLC Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic",
+              "reputation_risk",
+              "regulatory_changes"
+            ],
+            "threshold": 5
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "between",
+          "value": [
+            11000000,
+            32000000
+          ]
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 2,
+    "effective_date": "2024-06-02",
+    "version": 2,
+    "coverage_types": [
+      "cyber",
+      "property",
+      "professional"
+    ]
+  },
+  {
+    "id": "77638bcc-8a5b-4150-ae7e-f571c17c0a5c",
+    "name": "Young LLC Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "pandemic",
+              "reputation_risk",
+              "regulatory_changes"
+            ],
+            "threshold": 5
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "between",
+          "value": [
+            11000000,
+            32000000
+          ]
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 2,
+    "effective_date": "2023-09-30",
+    "version": 2,
+    "coverage_types": [
+      "cyber",
+      "property",
+      "professional"
+    ]
+  },
+  {
+    "id": "6bb0d888-7895-481d-83af-b8a7e9e98fb3",
+    "name": "Humphrey, Sanders and Rose Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": "between",
+          "value": [
+            20000000,
+            34000000
+          ]
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": "technology"
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "environmental",
+              "cyber_threats",
+              "supply_chain"
+            ],
+            "threshold": 2
+          }
+        },
+        {
+          "field": "company_data.years_in_business",
+          "operator": ">=",
+          "value": 4
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 4,
+    "effective_date": "2023-09-14",
+    "version": 1,
+    "coverage_types": [
+      "property",
+      "liability",
+      "professional"
+    ]
+  },
+  {
+    "id": "6bb0d888-7895-481d-83af-b8a7e9e98fb3",
+    "name": "Humphrey, Sanders and Rose Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": "between",
+          "value": [
+            20000000,
+            34000000
+          ]
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": "technology"
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "environmental",
+              "cyber_threats",
+              "supply_chain"
+            ],
+            "threshold": 2
+          }
+        },
+        {
+          "field": "company_data.years_in_business",
+          "operator": ">=",
+          "value": 4
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 4,
+    "effective_date": "2023-12-25",
+    "version": 2,
+    "coverage_types": [
+      "property",
+      "liability",
+      "professional"
+    ]
+  },
+  {
+    "id": "6bb0d888-7895-481d-83af-b8a7e9e98fb3",
+    "name": "Humphrey, Sanders and Rose Underwriting Policy",
+    "conditions": {
+      "logic": "all",
+      "conditions": [
+        {
+          "field": "financials.revenue",
+          "operator": "between",
+          "value": [
+            20000000,
+            34000000
+          ]
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": "technology"
+        },
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "environmental",
+              "cyber_threats",
+              "supply_chain"
+            ],
+            "threshold": 2
+          }
+        },
+        {
+          "field": "company_data.years_in_business",
+          "operator": ">=",
+          "value": 4
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 4,
+    "effective_date": "2024-11-28",
+    "version": 2,
+    "coverage_types": [
+      "property",
+      "liability",
+      "professional"
+    ]
+  },
+  {
+    "id": "192d09cd-f10f-4423-840e-1a131a6032ed",
+    "name": "Aguilar Ltd Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats",
+              "workplace_safety",
+              "regulatory_changes"
+            ],
+            "threshold": 2
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": 41000000
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 10,
+    "effective_date": "2022-08-30",
+    "version": 1,
+    "coverage_types": [
+      "cyber",
+      "professional",
+      "property"
+    ]
+  },
+  {
+    "id": "192d09cd-f10f-4423-840e-1a131a6032ed",
+    "name": "Aguilar Ltd Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats",
+              "workplace_safety",
+              "regulatory_changes"
+            ],
+            "threshold": 2
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": 41000000
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 10,
+    "effective_date": "2023-05-03",
+    "version": 2,
+    "coverage_types": [
+      "cyber",
+      "professional",
+      "property",
+      "liability"
+    ]
+  },
+  {
+    "id": "192d09cd-f10f-4423-840e-1a131a6032ed",
+    "name": "Aguilar Ltd Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats",
+              "workplace_safety",
+              "regulatory_changes"
+            ],
+            "threshold": 2
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": ">=",
+          "value": 41000000
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 10,
+    "effective_date": "2023-10-25",
+    "version": 2,
+    "coverage_types": [
+      "cyber",
+      "professional",
+      "property"
+    ]
+  },
+  {
+    "id": "4fd575db-8057-4eea-aab7-de874e6fcc7c",
+    "name": "Lawson LLC Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<",
+          "value": [
+            5000000,
+            45000000
+          ]
+        },
+        {
+          "field": "company_data.years_in_business",
+          "operator": ">=",
+          "value": 6
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 2,
+    "effective_date": "2025-01-16",
+    "version": 1,
+    "coverage_types": [
+      "property"
+    ]
+  },
+  {
+    "id": "4fd575db-8057-4eea-aab7-de874e6fcc7c",
+    "name": "Lawson LLC Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<",
+          "value": [
+            5000000,
+            45000000
+          ]
+        },
+        {
+          "field": "company_data.years_in_business",
+          "operator": ">=",
+          "value": 6
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 2,
+    "effective_date": "2025-02-15",
+    "version": 2,
+    "coverage_types": [
+      "property"
+    ]
+  },
+  {
+    "id": "4fd575db-8057-4eea-aab7-de874e6fcc7c",
+    "name": "Lawson LLC Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "company_data.industry",
+          "operator": "in",
+          "value": [
+            "technology",
+            "healthcare",
+            "manufacturing",
+            "financial",
+            "construction",
+            "retail",
+            "transportation",
+            "energy",
+            "pharmaceuticals"
+          ]
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<",
+          "value": [
+            5000000,
+            45000000
+          ]
+        },
+        {
+          "field": "company_data.years_in_business",
+          "operator": ">=",
+          "value": 6
+        }
+      ]
+    },
+    "action": "REJECT",
+    "priority": 2,
+    "effective_date": "2025-02-15",
+    "version": 2,
+    "coverage_types": [
+      "property"
+    ]
+  },
+  {
+    "id": "ed4a9fac-f2c6-4ba7-a320-5997eb120389",
+    "name": "Russo, Ferrell and Morales Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats"
+            ],
+            "threshold": 3
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 34000000
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "construction"
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 8,
+    "effective_date": "2020-07-14",
+    "version": 1,
+    "coverage_types": [
+      "cyber"
+    ]
+  },
+  {
+    "id": "b37b172a-3d9e-4492-89ae-23723c95975d",
+    "name": "Russo, Ferrell and Morales Underwriting Policy",
+    "conditions": {
+      "logic": "any",
+      "conditions": [
+        {
+          "field": "risk_profile.risk_factors",
+          "operator": "contains_at_least",
+          "value": {
+            "items": [
+              "cyber_threats"
+            ],
+            "threshold": 3
+          }
+        },
+        {
+          "field": "financials.revenue",
+          "operator": "<=",
+          "value": 34000000
+        },
+        {
+          "field": "company_data.industry",
+          "operator": "equals",
+          "value": "construction"
+        }
+      ]
+    },
+    "action": "REVIEW",
+    "priority": 9,
+    "effective_date": "2020-07-14",
+    "version": 1,
+    "coverage_types": [
+      "cyber"
+    ]
+  }
+]
