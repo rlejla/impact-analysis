@@ -51,16 +51,46 @@
      ```json
      {
        "total_submissions": 1000,
-       "outcome_changes": 237,
-       "outcome_change_percentage": 23.7,
-       "breakdown_by_industry": { "manufacturing": 26, "construction": 33 },
-       "breakdown_by_risk_factor": { "workplace_safety": 237, "cyber_threats": 84 },
-       "breakdown_by_company_size": { "small": 117, "medium": 43, "large": 77 },
-       "breakdown_by_location": { "TX": 29, "FL": 11 },
-       "time_impact": { "immediate": 44, "gradual": 193 },
-       "financial_impact": 5087600000.0,
+       "outcome_changes": 106,
+       "outcome_change_percentage": 10.6,
+       "breakdown_by_industry": {
+           "construction": 106
+       },
+       "breakdown_by_risk_factor": {
+           "regulatory_changes": 30,
+           "environmental": 31,
+           "economic_downturn": 30,
+           "supply_chain": 31,
+           "workplace_safety": 33,
+           "reputation_risk": 29,
+           "cyber_threats": 24,
+           "pandemic": 32,
+           "natural_disasters": 29
+       },
+       "breakdown_by_company_size": {
+           "large": 45,
+           "small": 43,
+           "medium": 18
+       },
+       "breakdown_by_location": {
+           "MI": 8,
+           "PA": 14,
+           "GA": 9,
+           "IL": 12,
+           "NY": 11,
+           "OH": 9,
+           "FL": 9,
+           "CA": 12,
+           "NC": 10,
+           "TX": 12
+       },
+       "time_impact": {
+           "immediate": 23,
+           "gradual": 83
+       },
+       "financial_impact": 3029600000.0,
        "near_miss_submissions": []
-     }
+   }
      ```
 
 ### 4. Graph API
@@ -72,16 +102,46 @@
      ```json
      {
        "total_submissions": 1000,
-       "outcome_changes": 237,
-       "outcome_change_percentage": 23.7,
-       "breakdown_by_industry": { "manufacturing": 26, "construction": 33 },
-       "breakdown_by_risk_factor": { "workplace_safety": 237, "cyber_threats": 84 },
-       "breakdown_by_company_size": { "small": 117, "medium": 43, "large": 77 },
-       "breakdown_by_location": { "TX": 29, "FL": 11 },
-       "time_impact": { "immediate": 44, "gradual": 193 },
-       "financial_impact": 5087600000.0,
+       "outcome_changes": 106,
+       "outcome_change_percentage": 10.6,
+       "breakdown_by_industry": {
+           "construction": 106
+       },
+       "breakdown_by_risk_factor": {
+           "regulatory_changes": 30,
+           "environmental": 31,
+           "economic_downturn": 30,
+           "supply_chain": 31,
+           "workplace_safety": 33,
+           "reputation_risk": 29,
+           "cyber_threats": 24,
+           "pandemic": 32,
+           "natural_disasters": 29
+       },
+       "breakdown_by_company_size": {
+           "large": 45,
+           "small": 43,
+           "medium": 18
+       },
+       "breakdown_by_location": {
+           "MI": 8,
+           "PA": 14,
+           "GA": 9,
+           "IL": 12,
+           "NY": 11,
+           "OH": 9,
+           "FL": 9,
+           "CA": 12,
+           "NC": 10,
+           "TX": 12
+       },
+       "time_impact": {
+           "immediate": 23,
+           "gradual": 83
+       },
+       "financial_impact": 3029600000.0,
        "near_miss_submissions": []
-     }
+   }
      ```
    - **Response Example:**
      - Response Example:
